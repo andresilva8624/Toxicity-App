@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #2f2e30;
+  height:150vh;
+  width: 100vw;
+}
+
+a {
+  color: #2f2e30;
+}
+
+.toggle {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.anon {
+  background: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.toggle-btn {
+  padding: 10px;
+  width: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+#post-btn {
+  width: 80px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.new-user-btns {
+  margin-bottom: 10px;
+}
+.opacity {
+  background: #000000; 
+	border: solid #BDBDBD 1px; 
+	opacity: 0.5; 
+}
+
+.user-info {
+  color: white;
+}
+
+.logout {
+  color: white;
+}
+
+.new-post {
+  margin-bottom: 10px;
+
+}
+
+input {
+  width: 500px;
+}
+input::placeholder {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.user-btn, .new-user-btn{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.new-user-input {
+  height: 30px;
+}
+
+.submit-btn {
+  margin-top: 5px;
+}
+
+.new-user-wrapper {
+padding: 15px;
+}
+
+.input-form {
+  padding-top: 100px;
+}
+
+.input-wrapper {
+  padding: 10px;
+}
+
+.anon, #post-btn {
+  margin: 10px;
+}
+
+.posts
+p {
+  width: 50%;
+  margin: 20px;
+  text-align: justify;
+}
+
+
+h2 {
+ color: white;
+ margin-top: 10px;
+ }
+
+
+button:hover {
+background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 4%, rgba(8,0,0,1) 19%, rgba(33,0,0,1) 36%, rgba(117,0,0,1) 93%);
+color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.logout:hover {
+  text-decoration: underline;
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace; */

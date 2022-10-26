@@ -1,0 +1,196 @@
+{{!-- <div class="post card">
+  <div class="card-header">
+    <h2>Edit Post</h2>
+  </div>
+
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toxicity Homepage</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Girassol&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  
+  <body>
+    
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <div class="wrapper">
+        <a class="profile-bg main-wrapper d-block"></a>
+        <div>
+            <a href="file:///C:/Users/andre/Desktop/toxicity/mockups/profile.html#" id="profile-link">
+                <img src="./assets/images/profile3.jpg" id="profile-img">
+            </a>
+            <div id="profile-marg">
+                <!-- <div id="profile-name">
+                    <a href="#">Andre</a>
+                </div> -->
+                <span>
+                    <a href="file:///C:/Users/andre/Desktop/toxicity/mockups/profile.html#">@<span>AndresToxins</span></a>
+                </span>
+            </div>
+            <div id="profile-state">
+                <ul id="profile-Arrange">
+                  <li id="profile-details">
+                      <a href="#">
+                          <span class="d-block" id="profile-label">Toxins</span>
+                          <span id="profile-number">
+                              9.840
+                          </span>
+                      </a>
+                  </li>
+                  <li id="profile-details">
+                      <a href="#">
+                          <span class="d-block" id="profile-label">Stalking</span>
+                          <span id="profile-number">
+                              885
+                          </span>
+                      </a>
+                  </li>
+                  <li id="profile-details">
+                      <a href="#">
+                          <span class="d-block" id="profile-label">Losers</span>
+                          <span id="profile-number">
+                              3.100.810
+                      </span></a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+      <h1><span>☣</span></h1>
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <a href="/">
+        <h2>HELL!</h2></a>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <a href="/profile">
+        <h2>Profile</h2></a>
+      </div>
+
+      <button class="sidebar__tweet" href="/login">Login</button>
+    </div>
+    <!-- sidebar ends -->
+    
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed__header">
+        <h1>WHY ARE YOU HERE!? DUMBASS!! <span>&#9763;</span></h1>
+      </div>
+    
+
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox__input">
+            <img
+              src="./assets/images/user.jpg"
+              alt=""
+            />
+            <input type="text" placeholder= "What's your problem!? ☣ "/>
+          </div>
+          <button class="tweetBox__tweetButton">SAY IT!</button>
+          <button class="button" id="runaway_btn">TRASH IT!</button>
+        </form>
+      </div>
+        <form id="edit-post-form" class="card-body">
+    <input type="hidden" name="post-id" value="{{post.id}}" />
+
+    <label class="tweetbox__input" for="post-title">Title</label>
+    <input type="text" name="post-title" value="{{post.title}}" class="form-input" />
+
+    <label class="form-label" for="post-body">Content</label>
+    <textarea name="post-body" class="form-input">{{post.body}}</textarea>
+
+    <button type="submit" class="btn">Update</button>
+
+    <button type="button" id="delete-btn" class="btn">Delete</button>
+  </form>
+
+
+      <!-- post starts -->
+      <div class="post">
+        <div class="post__avatar">
+          <img
+            src="./assets/images/user.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="post__body">
+          <div class="post__header">
+            <div class="post__headerText">
+              <h3>
+             Toxic Andre
+                <span class="post__headerSpecial"
+                  ><span class="material-icons post__badge"> verified </span>@AndresToxins</span
+                >
+              </h3>
+            </div>
+            <div class="post__headerDescription">
+              <p>You said it, you MEAN IT!!</p>
+            </div>
+          </div>
+          <img
+            src="./assets/images/image.jpg"
+            alt=""
+          />
+          <div class="post__footer">
+            <span class="material-icons"> repeat </span>
+            <span class="material-icons"> favorite_border </span>
+            <span class="material-icons"> publish </span>
+          </div>
+          <a class="twitter-timeline" href="https://twitter.com/BravoRealWives?ref_src=twsrc%5Etfw">Tweets by BravoRealWives</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <!-- post ends -->
+    </div>
+    <!-- feed ends -->
+
+    <!-- widgets starts -->
+    <div class="widgets">
+      <div class="widgets__input">
+        <span class="material-icons widgets__searchIcon"> search </span>
+        <input type="text" placeholder="Search Toxins" />
+      </div>
+
+      <div class="widgets__widgetContainer">
+        <h2>Really cool stuff</h2>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I VOTED 🇺🇸 <a href="https://t.co/hlgIJUST4x">pic.twitter.com/hlgIJUST4x</a></p>&mdash; ye (@kanyewest) <a href="https://twitter.com/kanyewest/status/1323730046125699072?ref_src=twsrc%5Etfw">November 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Recording The System 🎙️New episode is out now. <a href="https://t.co/1TYi1yQFnp">https://t.co/1TYi1yQFnp</a> <a href="https://t.co/6UimL7lvO4">pic.twitter.com/6UimL7lvO4</a></p>&mdash; Kim Kardashian (@KimKardashian) <a href="https://twitter.com/KimKardashian/status/1582052778062491649?ref_src=twsrc%5Etfw">October 17, 2022</a></blockquote>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Jared Fogle has happily passed away! RIP Bozo 😂 <a href="https://t.co/DS4wCh4PWj">pic.twitter.com/DS4wCh4PWj</a></p>&mdash; Anything Bot (@anythingbott) <a href="https://twitter.com/anythingbott/status/1562950710303420416?ref_src=twsrc%5Etfw">August 25, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is everyone enjoying <a href="https://twitter.com/hashtag/RHOC?src=hash&amp;ref_src=twsrc%5Etfw">#RHOC</a> so far? <a href="https://twitter.com/TamraBarney?ref_src=twsrc%5Etfw">@TamraBarney</a> <a href="https://t.co/IQfx199T3M">pic.twitter.com/IQfx199T3M</a></p>&mdash; The Real Housewives! (@BravoRealWives) <a href="https://twitter.com/BravoRealWives/status/1043510055327490049?ref_src=twsrc%5Etfw">September 22, 2018</a></blockquote> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+    <!-- widgets ends -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script href="./assets/js/index.js"></script>
+  </body>
+  
+</html>
+
+<script src="/js/edit-post.js"></script> --}}

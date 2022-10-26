@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body class="flex-column min-100-vh">
+  <nav class="navbar">
+     {{!-- <h1 class="app-title"><a href="/">Toxicity</a></h1> --}}
+    <ul class="links">
+       {{!-- <h1 class="app-title"><a href="/">Toxicity</a></h1> --}}
+      <li class="li-inline nav-item"><a class="navBtn"href="/">Home</a></li>
+      <li class="li-inline nav-item"><a class="navBtn"href="/profile">Profile</a></li>
+      <li class="li-inline nav-item"><a class="navBtn"href="/login">Login</a></li>
+      <li class="li-inline nav-item"><a class="navBtn"href="#" id="logout-link">Logout</a></li>
+    </ul>
+  <h1 class="app-title"><a class="name"href="/">Toxicity</a><a class="toxic icon-4x" id="toxic"><span>☣</span></a></h1>
+  </nav>
+  <header class="hero">
+   
+  </header>
+{{!-- <a class="postBtn"href="/profile/new">➕ New Post</a> --}}
+  <main class="col-auto">
+    {{{body}}}
+  </main>
+  
+ {{!-- <a class="postBtn"href="/profile/new">➕ New Post</a> --}}
+  <footer class="footer flex-row justify-center">
+   
+  </footer>
+</body>
+
+
+
+</html>
+
+<script src="/js/comment.js"></script>
+<script src="/js/login.js"></script>
+<script src="/js/logout.js"></script>
+    <script src="/js/new.js"></script>
