@@ -1,199 +1,193 @@
 * {
-background-color: rgb(0, 0, 0);
-display: column;
-flex-wrap: wrap;
-flex-direction: row;
-}
-.navbar{
-  background-color: #6a0000;
-    list-style: none;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: stretch;
-}
-.links{
-  display: flex;
-  justify-content: space-evenly;
-  text-decoration: none;
-  list-style: none;
-  background-color: #6a0000;
-}
-.app-title{
-  
-    display: flex;
-    justify-content: center;
-    color: #6a0000;
-    font-size:300%;
+  background-color: rgb(0, 0, 0);
+  display: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+  .navbar{
     background-color: #6a0000;
+      list-style: none;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: stretch;
+  }
+  .links{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    background-color: #6a0000;
+  }
+  .app-title{
     
-}
-.navBtn{
-  -webkit-border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      color: #6a0000;
+      font-size:300%;
+      background-color: #6a0000;
+      
+  }
+  .navBtn{
+    -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      border: solid 1px #000000;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+      background: #000000;
+      color: #6a0000;
+      padding: 8px 12px;
+      text-decoration: none;
+  }
+  .name{
+      color: white;
+      font-size:200%;
+      text-decoration: none;
+      background-color: #6a0000;
+  }
+  .card{ 
+    
+    border-top: solid gray;
+    border-bottom: solid gray;
+    margin-bottom: 0px;
+    padding: 4.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+  }
+  /* .posts{
+    border: solid;
+  } */
+  .list-item{
+    
+    border-top: solid gray;
+    border-bottom: solid gray;
+    margin-bottom: 0px;
+    padding: 4.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: var(--primary);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+      color:white
+  }
+  .card-header{
+    color:white
+  }
+  .card-body{
+    color: #CCCCCC;
+  }
+  .btn{
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  .signUp{
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  .username-input-login{
+    background-color: white;
+  }
+  .login{
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  .pf{
+    width: 65px;
+      height: 65px;
+      /* background: #747474; */
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 37px;
+      vertical-align: middle;
+      /* line-height: 2; */
+  }
+  .title1{
+    color: white;
+    text-decoration: none;
+  }
+  .postBtn{
+    -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
-    border: solid 1px #000000;
+    border: solid 1px #a40000;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-    background: #000000;
-    color: #6a0000;
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background:black;
+    color: rgb(126, 0, 0);
     padding: 8px 12px;
     text-decoration: none;
-}
-.name{
-    color: white;
-    font-size: xxx-large;
-    text-decoration: none;
-    background-color: #6a0000;
-}
-.card{ 
-  
-  border-top: solid gray;
-  border-bottom: solid gray;
-  margin-bottom: 0px;
-  padding: 4.5%;
-  border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  
-  
-}
-/* .posts{
-  border: solid;
-} */
-.list-item{
-  
-  border-top: solid gray;
-  border-bottom: solid gray;
-  margin-bottom: 0px;
-  padding: 4.5%;
-  border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  color: var(--primary);
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-    align-items: center;
-    color:white
-}
-.card-header{
-  color:white
-}
-.card-body{
-  color: #CCCCCC;
-}
-.btn{
-  background-color: #6a0000;
-  border: none;
-  color: white;
-  font-weight: 900;
-  border-radius: 30px;
-  width: 80px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: auto;
-}
-.signUp{
-  background-color: #6a0000;
-  border: none;
-  color: white;
-  font-weight: 900;
-  border-radius: 30px;
-  width: 80px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: auto;
-}
-.username-input-login{
-  background-color: white;
-}
-.login{
-  color:#CCCCCC;
-  text-decoration: none;
-}
-.pf{
-  width: 65px;
-    height: 65px;
-    /* background: #747474; */
-    border-radius: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 37px;
-    vertical-align: middle;
-    /* line-height: 2; */
-}
-.title1{
-  color: white;
-  text-decoration: none;
-}
-.postBtn{
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  border: solid 1px #a40000;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
-  background:black;
-  color: rgb(126, 0, 0);
-  padding: 8px 12px;
-  text-decoration: none;
-  display: flex;
-    padding: 1%;
-    margin-top: 3%;
-    justify-content: center;
-}
-.form-input{
-  background-color: white;
-  color:black;
-}
-.header{
-  color:white 
-}
-
-
-#toxic, span {
-
-  background-color: #6a0000;
-}
-
-
-
-
-* {
-  margin: none;
-  padding: 0;
-  /* box-sizing: border-box; */
-  /* background: rgb(0,0,0); */
-  /* background: black; */
-  display: flexbox;
-
-  /* align-items: baseline; */
-  /* flex-wrap: wrap; */
-  color: white;
-  font-family: 'Girassol', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-background: rgb(0, 0, 0);
-list-style: none;
-/* background: radial-gradient(
-  circle,
-  rgba(0, 0, 0, 1) 4%,
-  rgba(8, 0, 0, 1) 19%,
-  rgba(33, 0, 0, 1) 36%,
-  rgba(117, 0, 0, 1) 93%
-); */
-}
-
-/* body {
-  --twitter-color: #50b7f5;
-  --twitter-background: #e6ecf0;
+      padding: 1%;
+      margin-top: 3%;
+      justify-content: center;
+  }
+  .form-input{
+    background-color: white;
+    color:black;
+  }
+  .header{
+    color:white 
+  }
+  
+  
+  #toxic, span {
+  
+    background-color: #6a0000;
+  }
+  
+  
+  
+  
+  * {
+    margin: none;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* background: rgb(0,0,0); */
+    /* background: black; */
+    display: flexbox;
+  
+    /* align-items: baseline; */
+    /* flex-wrap: wrap; */
+    color: white;
+    font-family: 'Girassol', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: rgb(0, 0, 0);
+  list-style: none;
   /* background: radial-gradient(
     circle,
     rgba(0, 0, 0, 1) 4%,
@@ -201,527 +195,519 @@ list-style: none;
     rgba(33, 0, 0, 1) 36%,
     rgba(117, 0, 0, 1) 93%
   ); */
-/* }  */
-
-.sidebarOption {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 800;
-  font-size: 20px;
-  color: black;
-
-  margin-right: 20px; 
-}
-
-.sidebarOption .material-icons,
-.fa-twitter {
-  padding: 20px;
+  }
   
-}
-.sidebarOption:hover, .material-icons:hover,
-.fa-twitter:hover {
-  /* background-color: #6a0000; */
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
+  /* body {
+    --twitter-color: #50b7f5;
+    --twitter-background: #e6ecf0;
+    background: rgb(0, 0, 0);
+    /* background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 1) 4%,
+      rgba(8, 0, 0, 1) 19%,
+      rgba(33, 0, 0, 1) 36%,
+      rgba(117, 0, 0, 1) 93%
+    ); */
+  /* }  */
   
-}
-
-.sidebarOption h2 {
-  font-weight: 800;
-  font-size: 20px;
+  .sidebarOption {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
   
-  /* margin-right: 20px; */
- }
-.sidebarOption h2:hover {
-  font-weight: 800;
-  font-size: 20px;
-  color: black;
-  background-color: #6a0000;
-  margin-right: 20px; 
-}  
-
-/* .sidebarOption:hover {
-  background-color: #6a0000;
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
-} */
-
-.sidebarOption.active {
-  color: #6a0000;
-}
-.sidebarOption.active:hover {
-  /* background-color: #6a0000; */
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
-}
-
-.sidebar__tweet {
-  width: 100%;
-  background-color: #6a0000;
-  border: none;
-  color: white;
-  font-weight: 900;
-  border-radius: 30px;
-  height: 50px;
-  margin-top: 20px;
-}
-.sidebar__tweet:hover {
-  cursor:pointer;
-  background-color: #6a0000;
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
-}
-
-body {
-  display: column;
-  /* height: 100vh; */
-  /* max-width: 1300px; */
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 10px;
-  flex-direction: row;
-}
-
-.sidebar {
-
-  flex: 0.2;
-  min-width: 250px;
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.fa-twitter {
-  /* color: black; */
-  font-size: 30px;
-}
-
-/* feed */
-.feed {
-  flex: 0.5;
-  border-right: 1px solid black;
-  min-width: fit-content;
-  flex-wrap: wrap;
-  overflow-y: scroll;
-}
-
-.feed__header {
-  position: center;
-  top: 0;
-  background-color: black;
-  z-index: 100;
-  border: 1px solid black;
-  border-radius: 10%;
-  padding: 15px 20px;
-}
-
-.feed__header h2 {
-  font-size: 20px;
-  font-weight: 800;
-}
-
-.feed::-webkit-scrollbar {
-  display: none;
-}
-
-.feed {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-/* tweet box */
-.tweetbox__input img {
-  border-radius: 50%;
-  height: 40px;
-}
-
-.tweetBox {
-  padding-bottom: 10px;
-
-  padding-right: 10px;
-}
-
-.tweetBox form {
-  display: flex;
-  align-items: baseline;
-
-  border: #6a0000 4%;
-}
-
-.tweetbox__input {
-
-  display: flex;
-  padding: 20px;
-}
-
-.tweetbox__input input {
-  background-color: rgb(71, 69, 69);
-  color:white;
-  flex: 1;
-  margin-left: 20px;
-  font-size: 20px;
-
-  outline: none;
-  font-family: "Girassol", cursive;
-  font-family: "Poppins", sans-serif;
-}
-
-.tweetBox__tweetButton {
-  background-color: #6a0000;
-  border: none;
-  color: white;
-  font-weight: 900;
-
-  border-radius: 30px;
-  width: 80px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: auto;
-}
-
-.tweetBox__tweetButton:hover {
-  cursor:pointer;
-  background-color: #6a0000;
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
-}
-
-/* post */
-.post__avatar img {
-  border-radius: 50%;
-  height: 40px;
-}
-
-.post {
-  display: flex;
-  align-items: flex;
-  border-bottom: 1px solid #6a0000;
-  padding-bottom: 10px;
-}
-
-.post__body img {
-  width: 450px;
-  object-fit: contain;
-  border-radius: 20px;
-}
-
-.post__footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-
-.post__badge {
-  font-size: 14px !important;
-  color: #6a0000;
-  margin-right: 5px;
-}
-
-.post__headerSpecial {
-  font-weight: 600;
-  font-size: 12px;
-  color: rgb(245, 243, 243);
-}
-
-.post__headerText h3 {
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
-.post__headerDescription {
-  margin-bottom: 10px;
-  font-size: 15px;
-}
-
-.post__body {
-  flex: 1;
-  padding: 10px;
-}
-
-.post__avatar {
-  padding: 20px;
-}
-
-/* widgets */
-.widgets {
-  flex: 0.3;
-}
-
-.widgets__input {
-  display: flex;
-  align-items: center;
-  background-color: #6a0000;
-  padding: 10px;
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-left: 20px;
-}
-
-.widgets__input input {
-  border: none;
-  background-color: #6a0000;
-}
-
-.widgets__searchIcon {
-  color: rgb(252, 237, 237);
-  background-color: #6a0000;
-}
-
-.widgets__widgetContainer {
-  margin-top: 15px;
-  margin-left: 20px;
-  padding: 20px;
-  background-color: #6a0000;
-  border-radius: 20px;
-}
-
-.widgets__widgetContainer h2 {
-  color: white;
-  font-size: 30px;
-  font-weight: 800;
-  background-color: #6a0000;
-}
-
-#profile-img {
-  border-radius: 50%;
-  height: 120px;
-}
-
-.span {
-  border-radius: 50%;
-  height: 80px;
-}
-
-.barrel {
-  border-radius: 0%;
-  height: 150px;
-}
-div#box {
-  width: 100px;
-  height: 100px;
-  background-color: #6a0000;
-  position: absolute;
-  top: 100px;
-  left: 100px;
-  z-index: 1;
-}
-
-button#runaway_btn {
-  cursor:pointer;
-  background-color: #6a0000;
-  border: none;
-  color: white;
-  font-weight: 900;
-
-  border-radius: 30px;
-  width: 80px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: auto;
-  position: relative;
-  z-index: 2;
-}
-
-button#runaway_btn:hover {
-
-  cursor:pointer;
-  background-color: #6a0000;
-  border-radius: 30px;
-  color: black;
-  transition: color 100ms ease-out;
-/* position:relative;
-top:100px;
-right: -30px;  */
-display: none;
-}
-.wrapper {
-  /* background: #6a0000; */
-  /* border:1px solid  black;
-  border-radius: 6px; */
-  height: auto;
-  width: 100%;
-  max-width: 600px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.09);
- 
-}
-.main-wrapper {
-  background: black;
-  background-image: url("./images/twitter.png");
-  background-position: 0 50%;
-  background-size: 100% auto;
-  border-radius: 4px 4px 0px 0px;
-  height: 95px;
-  width: 100%;
-}
-#profile-link {
+    margin-right: 20px; 
+  }
+  
+  .sidebarOption .material-icons,
+  .fa-twitter {
+    padding: 20px;
+    
+  }
+  .sidebarOption:hover, .material-icons:hover,
+  .fa-twitter:hover {
+    /* background-color: #6a0000; */
+    border-radius: 30px;
+    color: black;
+    transition: color 100ms ease-out;
+    
+  }
+  
+  .sidebarOption h2 {
+    font-weight: 800;
+    font-size: 20px;
+    
+    /* margin-right: 20px; */
+   }
+  .sidebarOption h2:hover {
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+    background-color: #6a0000;
+    margin-right: 20px; 
+  }  
+  
+  /* .sidebarOption:hover {
+    background-color: #6a0000;
+    border-radius: 30px;
+    color: black;
+    transition: color 100ms ease-out;
+  } */
+  
+  .sidebarOption.active {
+    color: #6a0000;
+  }
+  .sidebarOption.active:hover {
+    /* background-color: #6a0000; */
+    border-radius: 30px;
+    color: black;
+    transition: color 100ms ease-out;
+  }
+  
+  .sidebar__tweet {
+    width: 100%;
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .sidebar__tweet:hover {
+    cursor:pointer;
+    background-color: #6a0000;
+    border-radius: 30px;
+    color: black;
+    transition: color 100ms ease-out;
+  }
+  
+  body {
+    display: column;
+    /* height: 100vh; */
+    /* max-width: 1300px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+  
+    flex: 0.2;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .fa-twitter {
+    /* color: black; */
+    font-size: 30px;
+  }
+  
+  /* feed */
+  .feed {
+    flex: 0.5;
+    border-right: 1px solid black;
+    min-width: fit-content;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  }
+  
+  .feed__header {
+    position: center;
+    top: 0;
+    background-color: black;
+    z-index: 100;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 15px 20px;
+  }
+  
+  .feed__header h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .feed {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  /* tweet box */
+  .tweetbox__input img {
+    border-radius: 50%;
+    height: 40px;
+  }
+  
+  .tweetBox {
+    padding-bottom: 10px;
+  
+    padding-right: 10px;
+  }
+  
+  .tweetBox form {
+    display: flex;
+    align-items: baseline;
+  
+    border: #6a0000 4%;
+  }
+  
+  .tweetbox__input {
+  
+    display: flex;
+    padding: 20px;
+  }
+  
+  .tweetbox__input input {
+    background-color: rgb(71, 69, 69);
+    color:white;
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+  
+    outline: none;
+    font-family: "Girassol", cursive;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .tweetBox__tweetButton {
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+  
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+  
+  .tweetBox__tweetButton:hover {
+    cursor:pointer;
+    background-color: #6a0000;
+    border-radius: 30px;
+    color: black;
+    transition: color 100ms ease-out;
+  }
+  
+  /* post */
+  .post__avatar img {
+    border-radius: 50%;
+    height: 40px;
+  }
+  
+  .post {
+    display: flex;
+    align-items: flex;
+    border-bottom: 1px solid #6a0000;
+    padding-bottom: 10px;
+  }
+  
+  .post__body img {
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;
+  }
+  
+  .post__footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .post__badge {
+    font-size: 14px !important;
+    color: #6a0000;
+    margin-right: 5px;
+  }
+  
+  .post__headerSpecial {
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(245, 243, 243);
+  }
+  
+  .post__headerText h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .post__headerDescription {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .post__body {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .post__avatar {
+    padding: 20px;
+  }
+  
+  /* widgets */
+  .widgets {
+    flex: 0.3;
+  }
+  
+  .widgets__input {
+    display: flex;
+    align-items: center;
+    background-color: #6a0000;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .widgets__input input {
+    border: none;
+    background-color: #6a0000;
+  }
+  
+  .widgets__searchIcon {
+    color: rgb(252, 237, 237);
+    background-color: #6a0000;
+  }
+  
+  .widgets__widgetContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #6a0000;
+    border-radius: 20px;
+  }
+  
+  .widgets__widgetContainer h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #6a0000;
+  }
+  
+  #profile-img {
+    border-radius: 50%;
+    height: 120px;
+  }
+  
+  .span {
+    border-radius: 50%;
+    height: 80px;
+  }
+  
+  .barrel {
+    border-radius: 0%;
+    height: 150px;
+  }
+  div#box {
+    width: 100px;
+    height: 100px;
+    background-color: #6a0000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+  }
+  
+  button#runaway_btn {
+    cursor:pointer;
+    background-color: #6a0000;
+    border: none;
+    color: white;
+    font-weight: 900;
+  
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  button#runaway_btn:hover {cursor:pointer;background-color: #6a0000;border-radius: 30px;color: black;transition: color 100ms ease-out;/* position:relative;
+  top:100px;
+  right: -30px;  */opacity: 0;cursor: initial;}
+  .wrapper {
+    /* background: #6a0000; */
+    /* border:1px solid  black;
+    border-radius: 6px; */
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.09);
+   
+  }
+  .main-wrapper {
+    background: black;
+    background-image: url("./images/twitter.png");
+    background-position: 0 50%;
+    background-size: 100% auto;
+    border-radius: 4px 4px 0px 0px;
+    height: 95px;
+    width: 100%;
+  }
+  #profile-link {
+    background:none;
+    border-radius: 6px;
+    display: inline-block;
+    float: left;
+    margin: -30px 5px 0px 8px;
+    max-width: 100%;
+    padding: 1px;
+    vertical-align: bottom;
+    color: black;
+  }
+  #profile-img {
+    border: 2px solid #6a0000;
+    border-radius: 7px;
+    color: #6a0000;
+    border-radius: 50%;
+    /* height: 40px; */
+  }
+  
+  #profile-marg {
+    margin: 5px 0px 0px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+  
+  }
+  #profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+  }
+  #profile-name a {
+    color: black;
+  }
+  #profile-state {
+    padding: 15px;
+  }
+  #profile-Arrange {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    min-width: 100%;
+    padding: 0px;
+  }
+  ul#profile-Arrange {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #profile-details a:hover {
+    text-decoration: none;
+  }
+  #profile-number {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.15s ease-in-out 0s;
+  }
+  #profile-label {
+    color: #6a0000;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+  }
+  #profile-number {
+    color: #6a0000;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out 0s;
+  }
+  
+  /* .tweetBox {
+  
+    position:relative;
+    top: px;
+    right: 0;
+  } */
+  
+  .move-away {
+    position:absolute;
+    top:10px;
+    right: 0;
+  
+  }
+  
+  div.banner {
+    font-size:xx-large;
+    width: 100%;
+    height: 380px;
+    margin-right: 3%;
+    margin-left: 2%;
+    color: #6a0000;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: #6a0000;
+    background-image:url("./images/toxic.webp");
+    height: 250px; /* You must set a specified height */
+  background-position: 100%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:auto; /* Resize the background image to cover the entire container */
+  }
+  
+  /* div.banner h1 {
   background:none;
-  border-radius: 6px;
-  display: inline-block;
-  float: left;
-  margin: -30px 5px 0px 8px;
-  max-width: 100%;
-  padding: 1px;
-  vertical-align: bottom;
-  color: black;
-}
-#profile-img {
-  border: 2px solid #6a0000;
-  border-radius: 7px;
-  color: #6a0000;
-  border-radius: 50%;
-  /* height: 40px; */
-}
-
-#profile-marg {
-  margin: 5px 0px 0px;
-  font-weight: 800;
-  font-size: 20px;
-  margin-right: 20px;
-
-}
-#profile-name {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-}
-#profile-name a {
-  color: black;
-}
-#profile-state {
-  padding: 15px;
-}
-#profile-Arrange {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  min-width: 100%;
-  padding: 0px;
-}
-ul#profile-Arrange {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-#profile-details a:hover {
-  text-decoration: none;
-}
-#profile-number {
-  display: block;
-  font-size: 18px;
-  font-weight: 500;
-  transition: color 0.15s ease-in-out 0s;
-}
-#profile-label {
-  color: #6a0000;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  overflow: hidden;
-  text-transform: uppercase;
-  transition: color 0.15s ease-in-out 0s;
-}
-#profile-number {
-  color: #6a0000;
-  font-size: 12px;
-  letter-spacing: 0.02em;
-  overflow: hidden;
-  text-transform: uppercase;
-  transition: color 0.15s ease-in-out 0s;
-}
-
-/* .tweetBox {
-
-  position:relative;
-  top: px;
-  right: 0;
-} */
-
-.move-away {
-  position:absolute;
-  top:10px;
-  right: 0;
-
-}
-
-div.banner {
-  font-size:xx-large;
-  width: 100%;
-  height: 380px;
-  margin-right: 3%;
-  margin-left: 2%;
-  color: #6a0000;
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  background: #6a0000;
-  background-image:url("./images/toxic.webp");
-  height: 250px; /* You must set a specified height */
-background-position: 100%;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size:auto; /* Resize the background image to cover the entire container */
-}
-
-/* div.banner h1 {
-background:none;
-
-} */
-
-.twitter-timeline{
-  color: #6a0000;
-
-}
-
-.h2:hover {
-  background: #6a0000;
-}
-
-.material-icons:hover h2 {
-
-  background: #6a0000;
-}
-
-
-
-h1 {
-  display:flex;
-flex-direction:column;
-  align-items:center;
-  background: #6a0000;
-
   
-}
-span-1{
-
-  background-color: #6a0000;
-}
-
-.twitter-tweet {
-
-  max-width: 100%;
-}
-
-#username-input-login, #username-input-signup {
-
-
-background-color: rgb(71, 69, 69);
-color: black;
-flex: 1;
-margin-left: 20px;
-font-size: 20px;
-outline: none;
-font-family: "Girassol", cursive;
-font-family: "Poppins", sans-serif;
-}
-#password-input-login, #password-input-signup {
-
-
+  } */
+  
+  .twitter-timeline{
+    color: #6a0000;
+  
+  }
+  
+  .h2:hover {
+    background: #6a0000;
+  }
+  
+  .material-icons:hover h2 {
+  
+    background: #6a0000;
+  }
+  
+  
+  
+  h1 {
+    display:flex;
+  flex-direction:column;
+    align-items:center;
+    background: #6a0000;
+  
+    
+  }
+  span-1{
+  
+    background-color: #6a0000;
+  }
+  
+  .twitter-tweet {
+  
+    max-width: 100%;
+  }
+  
+  #username-input-login, #username-input-signup {
+  
+  
   background-color: rgb(71, 69, 69);
   color: black;
   flex: 1;
@@ -731,3 +717,15 @@ font-family: "Poppins", sans-serif;
   font-family: "Girassol", cursive;
   font-family: "Poppins", sans-serif;
   }
+  #password-input-login, #password-input-signup {
+  
+  
+    background-color: rgb(71, 69, 69);
+    color: black;
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    outline: none;
+    font-family: "Girassol", cursive;
+    font-family: "Poppins", sans-serif;
+    }
