@@ -56,7 +56,7 @@ flex-direction: row;
   border-radius: var(--border-radius);
   background-color: var(--light-dark);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   
   
@@ -86,12 +86,26 @@ flex-direction: row;
   color: #CCCCCC;
 }
 .btn{
-  color:black;
-  background-color: #CCCCCC;
+  background-color: #6a0000;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
 }
 .signUp{
-  color:#CCCCCC;
-  text-decoration: none;
+  background-color: #6a0000;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+  width: 80px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: auto;
 }
 .username-input-login{
   background-color: white;
@@ -101,16 +115,16 @@ flex-direction: row;
   text-decoration: none;
 }
 .pf{
-  width: 50px;
-    height: 50px;
-    background: #747474;
+  width: 65px;
+    height: 65px;
+    /* background: #747474; */
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 37px;
     vertical-align: middle;
-    line-height: 2;
+    /* line-height: 2; */
 }
 .title1{
   color: white;
@@ -335,6 +349,7 @@ body {
 
 .tweetBox form {
   display: flex;
+  align-items: baseline;
 
   border: #6a0000 4%;
 }
@@ -691,3 +706,28 @@ span-1{
 
   max-width: 100%;
 }
+
+#username-input-login, #username-input-signup {
+
+
+background-color: rgb(71, 69, 69);
+color: black;
+flex: 1;
+margin-left: 20px;
+font-size: 20px;
+outline: none;
+font-family: "Girassol", cursive;
+font-family: "Poppins", sans-serif;
+}
+#password-input-login, #password-input-signup {
+
+
+  background-color: rgb(71, 69, 69);
+  color: black;
+  flex: 1;
+  margin-left: 20px;
+  font-size: 20px;
+  outline: none;
+  font-family: "Girassol", cursive;
+  font-family: "Poppins", sans-serif;
+  }
